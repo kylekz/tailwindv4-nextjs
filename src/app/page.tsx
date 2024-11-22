@@ -8,8 +8,6 @@ export default function Home() {
   const state = count % 2 === 0 ? "even" : "odd";
   const isEven = state === "even";
 
-  console.log(state);
-
   return (
     <main className="flex min-h-screen flex-col gap-2 items-center p-24 *:p-2 *:border *:border-white font-[family-name:var(--font-geist-mono)]">
       <p>state: {state}</p>
