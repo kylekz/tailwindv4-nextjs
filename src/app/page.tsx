@@ -56,6 +56,17 @@ export default function Home() {
             count: {count}
           </button>
         </div>
+
+        <div className="flex flex-col">
+          <p className="text-xs">v4: data-even w/ undefined for false</p>
+          <button
+            data-even={isEven || undefined}
+            className="p-2 border border-white data-[even=true]:bg-red-500 bg-blue-500"
+            onClick={() => setCount((c) => c + 1)}
+          >
+            count: {count}
+          </button>
+        </div>
       </div>
     </main>
   );
