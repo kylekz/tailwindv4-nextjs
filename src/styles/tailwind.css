@@ -3,7 +3,6 @@
 @config '../../tailwind.config.js';
 
 @import "./shadcn.css";
-@import "./compatibility.css";
 @import "./layout.css";
 
 @theme {
