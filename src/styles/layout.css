@@ -2,6 +2,6 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: red;
   }
 }
